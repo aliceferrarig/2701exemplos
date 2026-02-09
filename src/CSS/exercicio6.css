@@ -1,0 +1,35 @@
+.total-container {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 320px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.total-titulo {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.total-botao {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1abc9c;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.total-botao:hover {
+  opacity: 0.9;
+}
+
+.total-resultado {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #2c3e50;
+}

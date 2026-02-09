@@ -1,0 +1,43 @@
+.fatura-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 320px;
+  background-color: #f9f9f9;
+}
+
+.fatura-titulo {
+  text-align: center;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.fatura-subtitulo {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #666;
+}
+
+.fatura-botao {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.fatura-botao:hover {
+  opacity: 0.9;
+}
+
+.fatura-detalhes {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #2c3e50;
+  text-align: center;
+}

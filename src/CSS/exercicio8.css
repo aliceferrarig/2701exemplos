@@ -1,0 +1,35 @@
+.relatorio-local {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 320px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.titulo-relatorio {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.botao-relatorio {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #d330b0;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.botao-relatorio:hover {
+  opacity: 0.9;
+}
+
+.info-local {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #2c3e50;
+}
