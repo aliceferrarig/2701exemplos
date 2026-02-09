@@ -1,11 +1,3 @@
-.fatura-container {
-  padding: 20px;
-  font-family: Arial, sans-serif;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  max-width: 320px;
-  background-color: #f9f9f9;
-}
 
 .fatura-titulo {
   text-align: center;

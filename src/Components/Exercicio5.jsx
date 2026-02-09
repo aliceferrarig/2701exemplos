@@ -1,6 +1,6 @@
 import React from "react";
 import "/src/CSS/exercicio5.css";
-
+import "/src/CSS/cssgeral.css";
 function Exercicio5() {
   function saudarCliente() {
     let nomeDigitado = document.getElementById("nome-cliente").value;
@@ -10,7 +10,7 @@ function Exercicio5() {
   }
 
   return (
-    <div className="cobranca-container">
+    <div className="container">
       <h2 className="cobranca-titulo">Cobrança</h2>
 
       <input

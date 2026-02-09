@@ -1,6 +1,6 @@
 import React from "react";
 import "/src/CSS/exercicio1.css";
-
+import "/src/CSS/cssgeral.css";
 function Exercicio1() {
   function atualizarStatus() {
     let etiqueta = document.getElementById("status-entrega");
@@ -10,7 +10,7 @@ function Exercicio1() {
   }
 
   return (
-    <div className="entrega-container">
+    <div className="container">
       <h2 className="entrega-titulo">Controle de Entregas</h2>
 
       <p id="status-entrega" className="entrega-status">

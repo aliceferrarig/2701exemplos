@@ -1,5 +1,6 @@
 import React from "react";
 import "/src/CSS/exercicio2.css";
+import "/src/CSS/cssgeral.css";
 
 class ExercicioAlerta extends React.Component {
   mostrarAlerta() {
@@ -11,7 +12,7 @@ class ExercicioAlerta extends React.Component {
 
   render() {
     return (
-      <div className="alerta-container">
+      <div className="container">
         <h2 className="alerta-titulo">Sistema de Alerta</h2>
 
         <p id="mensagem" className="alerta-mensagem">

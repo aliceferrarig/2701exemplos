@@ -1,6 +1,6 @@
 import React from "react";
 import "/src/CSS/exercicio3.css";
-
+import "/src/CSS/cssgeral.css";
 function Exercicio3() {
   function processardados() {
     // simulação de JSON
@@ -19,7 +19,7 @@ function Exercicio3() {
   }
 
   return (
-    <div className="fatura-container">
+    <div className="container">
       <h2 className="fatura-titulo">Processamento de Dados de Fatura</h2>
       <p className="fatura-subtitulo">Resultado Financeiro</p>
 

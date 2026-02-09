@@ -1,6 +1,6 @@
 import React from "react";
 import "/src/CSS/exercicio8.css";
-
+import "/src/CSS/cssgeral.css";
 function Exercicio8() {
   function verLocal() {
     let analise = {
@@ -16,7 +16,7 @@ function Exercicio8() {
   }
 
   return (
-    <div className="relatorio-local">
+    <div className="container">
       <h2 className="titulo-relatorio">Relatório</h2>
 
       <button onClick={verLocal} className="botao-relatorio">

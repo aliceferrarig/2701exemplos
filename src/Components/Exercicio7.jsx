@@ -1,6 +1,6 @@
 import React from "react";
 import "/src/CSS/exercicio7.css";
-
+import "/src/CSS/cssgeral.css";
 function Exercicio7() {
   function mostrarPrimeiraEntrega() {
     let entregas = [
@@ -14,7 +14,7 @@ function Exercicio7() {
   }
 
   return (
-    <div className="lista-entrega">
+    <div className="container">
       <h2 className="lista-titulo">Lista de Entregas</h2>
 
       <button

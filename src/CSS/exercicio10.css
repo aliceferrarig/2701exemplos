@@ -1,10 +1,9 @@
-
-.cobranca-titulo {
+.cotacao-titulo {
   margin-bottom: 15px;
   color: #333;
 }
 
-.cobranca-input {
+.cotacao-input {
   width: 100%;
   padding: 8px;
   margin-bottom: 10px;
@@ -13,23 +12,27 @@
   font-size: 14px;
 }
 
-.cobranca-botao {
+.cotacao-botao {
   width: 100%;
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #f39c12;
-  color: white;
+  background-color: #34495e;
+  color: #fff;
   font-size: 14px;
   cursor: pointer;
 }
 
-.cobranca-botao:hover {
+.cotacao-botao:hover {
   opacity: 0.9;
 }
 
-.cobranca-mensagem {
+.resultados {
   margin-top: 15px;
+}
+
+.cotacao-resultado {
   font-weight: bold;
   color: #2c3e50;
+  margin: 5px 0;
 }

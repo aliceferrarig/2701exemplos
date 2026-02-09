@@ -1,25 +1,25 @@
 
-.total-titulo {
+.estoque-titulo {
   margin-bottom: 15px;
   color: #333;
 }
 
-.total-botao {
+.estoque-botao {
   width: 100%;
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #1abc9c;
+  background-color: #8e44ad;
   color: #fff;
   font-size: 14px;
   cursor: pointer;
 }
 
-.total-botao:hover {
+.estoque-botao:hover {
   opacity: 0.9;
 }
 
-.total-resultado {
+.estoque-status {
   margin-top: 15px;
   font-weight: bold;
   color: #2c3e50;

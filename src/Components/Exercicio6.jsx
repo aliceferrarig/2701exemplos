@@ -1,6 +1,6 @@
 import React from "react";
 import "/src/CSS/exercicio6.css";
-
+import "/src/CSS/cssgeral.css";
 function Exercicio6() {
   function calcularTotal() {
     let produtos = [
@@ -20,7 +20,7 @@ function Exercicio6() {
   }
 
   return (
-    <div className="total-container">
+    <div className="container">
       <h2 className="total-titulo">Cálculo de Total com Imposto</h2>
 
       <button onClick={calcularTotal} className="total-botao">

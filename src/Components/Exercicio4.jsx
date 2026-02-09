@@ -1,31 +1,40 @@
 import React from "react";
 import "/src/CSS/exercicio4.css";
+import "/src/CSS/cssgeral.css";
 
 function Exercicio4() {
-  function mostrarinsumo() {
-    //simulaçao de entrega API
-    let insumo = {
-      Nome: "Adubo Orgânico",
-      Foto: "https://placecats.com/300/200",
-      Estoque: "150 Sacos",
+  function mostrarInsumo() {
+    // simulação de retorno da API
+    const insumo = {
+      nome: "Adubo Orgânico",
+      foto: "https://placecats.com/300/200",
+      estoque: "150 Sacos",
     };
 
-    // Buscar elementos
-    let titulo = document.getElementById("nome-insumo");
-    let imagem = document.getElementById("foto-insumo");
+    const titulo = document.getElementById("nome-insumo");
+    const imagem = document.getElementById("foto-insumo");
 
-    //aplicar os dados do json nos elementos
-    titulo.innerHTML = insumo.nome;
+    titulo.innerText = insumo.nome;
     imagem.src = insumo.foto;
+    imagem.style.display = "block";
   }
+
   return (
-    <div className="container-insumo">
+    <div className="container">
       <h2 className="titulo-resultado">Resultado Estoque</h2>
-      <button onClick={mostrarinsumo} className="botao-insumo">
+
+      <button onClick={mostrarInsumo} className="botao-insumo">
         Mostrar Insumo
       </button>
-      <h3 id="nome-insumo "className="subtitulo-insumo"></h3>
-      <img id="foto-insumo" className="imagem-insumo" />
+
+      <h3 id="nome-insumo" className="subtitulo-insumo"></h3>
+
+      <img
+        id="foto-insumo"
+        className="imagem-insumo"
+        alt="Imagem do insumo"
+        style={{ display: "none" }}
+      />
     </div>
   );
 }
